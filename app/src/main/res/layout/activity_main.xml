@@ -76,6 +76,7 @@
             android:layout_gravity="center"
             android:background="@drawable/from"
             android:text="login"
+            android:onClick="Pindah"
             android:textAllCaps="false"
             android:textColor="#2C2B2B"
             android:textStyle="bold" />
