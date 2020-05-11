@@ -8,12 +8,14 @@
     android:orientation="vertical"
     android:background="#E8E4E0"
     >
+    //Membuat tampilan yang memuat Tulisan ricemills dan home
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="150dp"
         android:background="@drawable/bg_home"
         android:orientation="vertical"
         >
+        //menampilkan tulisan RiceMills berwarna putih
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -23,6 +25,7 @@
             android:textSize="40dp"
             android:layout_marginTop="30dp"/>
 
+        //menampilkan tulisan Home
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -34,6 +37,7 @@
 
     </LinearLayout>
 
+    //digunakan untuk mengatur tata letak pada panel
     <GridLayout
         android:columnCount="2"
         android:rowCount="3"
@@ -42,6 +46,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         >
+        //membuat cardview pemasokan
         <androidx.cardview.widget.CardView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -51,6 +56,7 @@
             app:cardCornerRadius="12dp"
             android:layout_margin="12dp"
             >
+            //mengatur ukuran cardview
             <LinearLayout
                 android:orientation="vertical"
                 android:padding="16dp"
@@ -58,12 +64,14 @@
                 android:layout_height="match_parent"
                 android:gravity="center"
                 >
+                //memberi icon pada cardview
                 <ImageView
                     android:src="@mipmap/buy_launcher_foreground"
-                    android:layout_width="80dp"
-                    android:layout_height="80dp"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
                     >
                 </ImageView>
+                //memberi tulisan "Pemasokan" pada cardview
                 <TextView
                     android:layout_marginTop="8dp"
                     android:textColor="#060606"
@@ -77,6 +85,7 @@
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
+        //membuat cardview penggilingan
         <androidx.cardview.widget.CardView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -86,6 +95,7 @@
             app:cardCornerRadius="12dp"
             android:layout_margin="12dp"
             >
+            //mengatur ukuran cardview
             <LinearLayout
                 android:orientation="vertical"
                 android:padding="16dp"
@@ -93,12 +103,14 @@
                 android:layout_height="match_parent"
                 android:gravity="center"
                 >
+                //memberi icon pada cardview
                 <ImageView
                     android:src="@mipmap/penggilingan_launcher_foreground"
-                    android:layout_width="80dp"
-                    android:layout_height="80dp"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
                     >
                 </ImageView>
+                //memberi tulisan "penggilingan" pada cardview
                 <TextView
                     android:layout_marginTop="8dp"
                     android:textColor="#060606"
@@ -112,6 +124,7 @@
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
+        //mmebuat cardview penjualan
         <androidx.cardview.widget.CardView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -121,6 +134,7 @@
             app:cardCornerRadius="12dp"
             android:layout_margin="12dp"
             >
+            //mengatur ukuran cardview
             <LinearLayout
                 android:orientation="vertical"
                 android:padding="16dp"
@@ -128,12 +142,14 @@
                 android:layout_height="match_parent"
                 android:gravity="center"
                 >
+                //memberi icon pada cardview
                 <ImageView
                     android:src="@mipmap/penjualan_launcher_foreground"
-                    android:layout_width="80dp"
-                    android:layout_height="80dp"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
                     >
                 </ImageView>
+                //memberi tulisan "penjualan" pada cardview
                 <TextView
                     android:layout_marginTop="8dp"
                     android:textColor="#060606"
@@ -147,6 +163,7 @@
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
+        //membuat cardview view data
         <androidx.cardview.widget.CardView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -156,6 +173,7 @@
             app:cardCornerRadius="12dp"
             android:layout_margin="12dp"
             >
+            //mengatur ukuran cardview
             <LinearLayout
                 android:orientation="vertical"
                 android:padding="16dp"
@@ -163,12 +181,14 @@
                 android:layout_height="match_parent"
                 android:gravity="center"
                 >
+                //memberi icon pada cardview
                 <ImageView
                     android:src="@mipmap/view_launcher_foreground"
-                    android:layout_width="80dp"
-                    android:layout_height="80dp"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
                     >
                 </ImageView>
+                //memberi tulisan "View Data" pada cardview
                 <TextView
                     android:layout_marginTop="8dp"
                     android:textColor="#060606"
@@ -182,6 +202,7 @@
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
+        //membuat cardview stock
         <androidx.cardview.widget.CardView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -191,6 +212,7 @@
             app:cardCornerRadius="12dp"
             android:layout_margin="12dp"
             >
+            //mengatur ukuran cardview
             <LinearLayout
                 android:orientation="vertical"
                 android:padding="16dp"
@@ -198,12 +220,14 @@
                 android:layout_height="match_parent"
                 android:gravity="center"
                 >
+                //memberi icon pada cardview
                 <ImageView
                     android:src="@mipmap/stock_launcher_foreground"
-                    android:layout_width="80dp"
-                    android:layout_height="80dp"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
                     >
                 </ImageView>
+                //memberi tulisan "stock" pada cardview
                 <TextView
                     android:layout_marginTop="8dp"
                     android:textColor="#060606"
@@ -217,6 +241,7 @@
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
+        //membuat cardview grafik
         <androidx.cardview.widget.CardView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -226,6 +251,7 @@
             app:cardCornerRadius="12dp"
             android:layout_margin="12dp"
             >
+            //mengatur ukuran cardview
             <LinearLayout
                 android:orientation="vertical"
                 android:padding="16dp"
@@ -233,12 +259,14 @@
                 android:layout_height="match_parent"
                 android:gravity="center"
                 >
+                //memberi icon pada cardview
                 <ImageView
                     android:src="@mipmap/grafik_launcher_foreground"
-                    android:layout_width="80dp"
-                    android:layout_height="80dp"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
                     >
                 </ImageView>
+                //memberi tulisan "Grafik" pada cardview
                 <TextView
                     android:layout_marginTop="8dp"
                     android:textColor="#060606"
