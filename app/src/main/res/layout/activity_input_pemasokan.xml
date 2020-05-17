@@ -11,8 +11,18 @@
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:layout_weight=""
-        android:background="#ffc0cb"
+        android:background="#FC7E00"
         android:padding="10dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RiceMills"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:textColor="#ffffff"
+            >
+
+        </TextView>
     </LinearLayout>
     <TextView
         android:text="Pemasokan"
