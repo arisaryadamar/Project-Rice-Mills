@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/Ricemills.iml" filepath="$PROJECT_DIR$/Ricemills.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/Ricemills.iml" filepath="$PROJECT_DIR$/Ricemills.iml" group="Ricemills" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="Ricemills/app" />
+>>>>>>> 32485f440fffed8d951cf44093a31895928a9ee8
     </modules>
   </component>
 </project>
