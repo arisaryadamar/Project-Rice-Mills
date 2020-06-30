@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Ricemills</string>
+    <string name="masuk">Masuk</string>
+    <string name="daftar">Daftar</string>
+    <string name="belum_punya_akun">Belum Punya Akun ?</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="sudah_punya_akun">Sudah Punya Akun</string>
+    <string name="lupa_password">Lupa Password</string>
+    <string name="empty_data">DATA KOSONG!</string>
+    <string name="empty_data_desc">Data yang anda perlukan tidak tersedia untuk saat ini</string>
+    <string name="beras">Beras</string>
+    <string name="pemasokan">Pemasokan</string>
+    <string name="penggilingan">Penggilingan</string>
+    <string name="penjualan">Penjualan</string>
+    <string name="stok">Stok</string>
+    <string name="simpan">Simpan</string>
+    <string name="berat">Berat</string>
+    <string name="biaya_penggilingan">Biaya Penggilingan</string>
+    <string name="tanggal">Tanggal</string>
+    <string name="nama">Nama</string>
+    <string name="no_hp">No HP</string>
+    <string name="alamat">Alamat</string>
+    <string name="harga">Harga</string>
+    <string name="jumlah">Jumlah</string>
+    <string name="total_harga">Total Harga</string>
+    <string name="kode_barang">Kode Barang</string>
+    <string name="grafik_pemasokan">Grafik Pemasokan</string>
+    <string name="ukuran_sak">Ukuran Sak</string>
+    <string name="Tambah_Stok">Tambah Stok</string>
+    <string name="hasil_giling">Hasil GIling</string>
+    <string name="masukan_stok">Masukan Stok</string>
+    <string name="data_beras">Data Beras</string>
+</resources>
